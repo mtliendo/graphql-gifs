@@ -1,0 +1,22 @@
+type Gif {
+  id: ID!
+  slug: String!
+  description: String!
+  images: GifImage!
+}d
+
+type GifImage {
+  original: GifAttributes!
+  fixed_width: GifAttributes!
+}
+
+type GifAttributes {
+  url: String!
+  width: String!
+  height: String!
+}
+
+type Query {
+  getGifs(searchTerm: String, limit: Int): [Gif]
+    @function(name: "gifsfunction-${env}")
+}

@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "gql-lambda-dev-20190808220223-authRole",
+            "UnauthRoleArn": "arn:aws:iam::936471194299:role/gql-lambda-dev-20190808220223-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::936471194299:role/gql-lambda-dev-20190808220223-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "gql-lambda-dev-20190808220223-deployment",
+            "UnauthRoleName": "gql-lambda-dev-20190808220223-unauthRole",
+            "StackName": "gql-lambda-dev-20190808220223",
+            "StackId": "arn:aws:cloudformation:us-east-1:936471194299:stack/gql-lambda-dev-20190808220223/1c9e45d0-ba52-11e9-8fac-0e07a69c7d52"
+        }
+    }
+}

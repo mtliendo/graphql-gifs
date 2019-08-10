@@ -3,7 +3,7 @@ type Gif {
   slug: String!
   description: String!
   images: GifImage!
-}d
+}
 
 type GifImage {
   original: GifAttributes!

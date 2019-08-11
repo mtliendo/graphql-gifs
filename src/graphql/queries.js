@@ -1,11 +1,10 @@
-// eslint-disable
+/* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getGifs = `query GetGifs($searchTerm: String) {
-  getGifs(searchTerm: $searchTerm) {
+export const getGifs = `query GetGifs($searchTerm: String, $limit: Int) {
+  getGifs(searchTerm: $searchTerm, limit: $limit) {
     id
     slug
-    description
     images {
       original {
         url

@@ -1,7 +1,6 @@
 type Gif {
   id: ID!
   slug: String!
-  description: String!
   images: GifImage!
 }
 

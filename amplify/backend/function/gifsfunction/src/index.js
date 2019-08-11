@@ -7,7 +7,7 @@ exports.handler = (event, _, callback) => {
   let apiUrl = `https://api.giphy.com/v1/gifs/search?api_key=${GIPHY_API_KEY}&q=hello`;
 
   if (event.arguments) {
-    const { searchTerm = "hi", limit = 25 } = event.arguments;
+    const { searchTerm = "hi", limit = 20 } = event.arguments;
     apiUrl = `https://api.giphy.com/v1/gifs/search?api_key=${GIPHY_API_KEY}&q=${searchTerm}&limit=${limit}`;
   }
 

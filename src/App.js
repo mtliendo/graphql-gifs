@@ -11,7 +11,9 @@ const App = () => {
   useEffect(() => {
     API.graphql(
       graphqlOperation(getGifs, { searchTerm: "lets do this", limit: 1 })
-    ).then(({ data: { getGifs } }) => setGifs(getGifs));
+    )
+      .then(({ data: { getGifs } }) => setGifs(getGifs))
+      .catch(e => console.log(e));
   }, []);
 
   const handleSubmit = e => {

@@ -63,7 +63,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "gql-lambda-dev-20190808220223-deployment",
-					"S3Key": "amplify-builds/gifsfunction-327864436768372b6665-build.zip"
+					"S3Key": "amplify-builds/gifsfunction-30556639385475786c73-build.zip"
 				}
 			}
 		},
